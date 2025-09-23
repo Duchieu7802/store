@@ -7,7 +7,6 @@ function HomePage() {
 	return (
 		<div>
 			<Hero></Hero>
-
 			<Suspense fallback={<LoadingContainer />}>
 				<FeatureProducts />
 			</Suspense>
