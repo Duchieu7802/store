@@ -36,7 +36,9 @@ const ProductsGrid = ({ products }: { products: Product[] }) => {
 							</Card>
 						</Link>
 						<div className="absolute top-8 right-8">
-							<FavoriteToggleButton></FavoriteToggleButton>
+							<FavoriteToggleButton
+								productId={product.id}
+							></FavoriteToggleButton>
 						</div>
 					</article>
 				);
