@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReviewPage = () => {
+const ReviewPage = async () => {
 	return <div>ReviewPage</div>;
 };
 
